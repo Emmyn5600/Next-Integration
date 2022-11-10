@@ -29,8 +29,6 @@ export default function HomePage() {
     if (isDeleted) refetch();
   }, [isCreated, isUpdated, isDeleted, refetch]);
 
-  // console.log("create", isCreated, "update", isUpdated, "delete", isDeleted);
-
   return (
     <Fragment>
       <div className='text-center m-5'>

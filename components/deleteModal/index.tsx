@@ -19,10 +19,10 @@ function DeleteModal({
   openDelete,
   setOpenDelete,
   countryId,
-  refetch,
   setIsUpdated,
   setIsDeleted,
   setIsCreated,
+  refetch,
 }: any) {
   const cancelButtonRef = useRef(null);
 
@@ -34,10 +34,10 @@ function DeleteModal({
         deleteCountryId: countryId,
       },
     });
+    setOpenDelete(false);
     setIsDeleted(true);
     setIsUpdated(false);
     setIsCreated(false);
-    refetch();
   };
 
   return (
@@ -90,13 +90,14 @@ function DeleteModal({
                   </div>
                 </div>
                 <div className='bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6'>
-                  <button
+                  <a
+                    href='/'
                     type='button'
                     onClick={handleDeleteCountry}
                     className='mt-3 inline-flex w-full justify-center rounded-md border border-red-300 bg-red-500 px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm'
                   >
                     Yes Delete
-                  </button>
+                  </a>
                   <button
                     type='button'
                     className='mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm'
