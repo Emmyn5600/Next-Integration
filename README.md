@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+Next.js app that helps us demo CRUD operation using the GraphQL APIs built. 
+Styled the page with Tailwind CSS and use Apollo Client to make GraphQL queries and mutations from the front end
+
+![image](https://user-images.githubusercontent.com/55635977/201148061-183a7113-284d-49ef-a774-f3fded19ec9d.png)
+
+Built with
+
+- Framework: React.Js, Nextjs
+- Front End: Tailwind CSS
+
+
 ## Getting Started
 
 First, run the development server:
@@ -32,3 +44,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+👤 **NSABIMANA Emmanuel**
+
+- GitHub: [@emmyn5600](https://github.com/Emmyn5600)
+- Twitter: [@NSABIMA62253884](https://twitter.com/NSABIMA62253884)
+- LinkedIn: [@nsabimana-emmanuel-4276091b2](https://www.linkedin.com/in/nsabimana-emmanuel-4276091b2/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](hhttps://github.com/Emmyn5600/find-house-front-end/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!❤️
+
+
+Copyright (c) 2021 [NSABIMANA Emmanuel](emmanuelnsabimana.netlify.app/)
